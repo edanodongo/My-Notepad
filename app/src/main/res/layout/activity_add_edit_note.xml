@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:id="@+id/mainL"
+    tools:context=".AddEditNoteActivity">
+
+    <LinearLayout
+        android:gravity="center"
+        android:id="@+id/linearL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/idEdtNoteTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="2"
+            android:hint="@string/enter_note_title"
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <ImageView
+            android:id="@+id/tickUpdate"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginEnd="12dp"
+            android:src="@drawable/ic_tick" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/idEdtNoteDescription"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/idBtnAddUpdate"
+        android:layout_below="@+id/linearL"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="4dp"
+        android:gravity="start|top"
+        android:hint="@string/enter_note_description"
+        android:inputType="textMultiLine"
+        android:singleLine="false" />
+
+
+    <RelativeLayout
+        android:id="@+id/idBtnAddUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:id="@+id/layoutHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/bold"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_bold"/>
+            <!--app:tint="@color/white" -->
+
+            <ImageView
+                android:id="@+id/italic"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_italic"
+                android:visibility="gone" />
+            <!--app:tint="@color/white" -->
+
+            <ImageView
+                android:id="@+id/alignLeft"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/icn_align_left"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/alignCenter"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/icn_align_center"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/alignRight"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/icn_align_right"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/noFormat"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/icn_no_format"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/link"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_url"
+                android:visibility="gone" />
+            <!--app:tint="@color/white" -->
+
+            <ImageView
+                android:id="@+id/addImage"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_image"
+                android:visibility="gone" />
+            <!--app:tint="@color/white" -->
+
+            <!--<ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_more_hor" />
+            app:tint="@color/white" -->
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layoutHeader"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:id="@+id/fNote1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingStart="5dp">
+
+                    <View
+
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/note_color_1" />
+
+                    <ImageView
+                        android:id="@+id/imgNote1"
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_tick"
+                        app:tint="@color/white" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/fNote2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingStart="5dp">
+
+                    <View
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/note_color_2" />
+
+                    <ImageView
+                        android:id="@+id/imgNote2"
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_tick"
+                        app:tint="@color/white" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/fNote3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingStart="5dp">
+
+                    <View
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/note_color_3" />
+
+                    <ImageView
+                        android:id="@+id/imgNote3"
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_tick"
+                        app:tint="@color/white" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/fNote4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingStart="5dp">
+
+                    <View
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/note_color_4" />
+
+                    <ImageView
+                        android:id="@+id/imgNote4"
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_tick"
+                        app:tint="@color/white" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/fNote5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingStart="5dp">
+
+                    <View
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/note_color_5" />
+
+                    <ImageView
+                        android:id="@+id/imgNote5"
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_tick"
+                        app:tint="@color/white" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/fNote6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingStart="5dp">
+
+                    <View
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/note_color_6" />
+
+                    <ImageView
+                        android:id="@+id/imgNote6"
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_tick"
+                        app:tint="@color/white" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/fNote7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingStart="5dp">
+
+                    <View
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/note_color_7" />
+
+                    <ImageView
+                        android:id="@+id/imgNote7"
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_tick"
+                        app:tint="@color/white" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/fNote8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingStart="5dp">
+
+                    <View
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/note_color_8" />
+
+                    <ImageView
+                        android:id="@+id/imgNote8"
+                        android:layout_width="16dp"
+                        android:layout_height="16dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_black_tick" />
+                </FrameLayout>
+
+                <ImageView
+                    android:id="@+id/iv_mic"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="15dp"
+                    android:src="@drawable/ic_mic"
+                    android:clickable="true"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.498"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:focusable="true"
+                    android:contentDescription="@string/text_to_speech"/>
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

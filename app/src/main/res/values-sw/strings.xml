@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Notepad</string>
+    <string name="notes">Vidokezo</string>
+    <string name="to_dos">mambo ya kufanya</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="faqs">Maswali Yanayoulizwa Mara kwa Mara</string>
+    <string name="note_title">Kichwa cha Kumbuka</string>
+    <string name="note_description">Maelezo ya Kumbuka</string>
+    <string name="timestamp">Muhuri wa saa</string>
+    <string name="delete_note_icon">Aikoni ya kufuta dokezo</string>
+    <string name="floating_action_button">Kitufe cha Kitendo kinachoelea</string>
+    <string name="add_note">Ongeza Kumbuka</string>
+    <string name="rate">Kiwango</string>
+    <string name="about">Kuhusu</string>
+    <string name="instagram">instagram</string>
+    <string name="whatsapp">whatsapp</string>
+    <string name="share">shiriki</string>
+    <string name="search">Tafuta</string>
+    <string name="grid">Gridi</string>
+    <string name="view">Tazama</string>
+    <string name="linear">Linear</string>
+    <string name="privacy_policy">Sera ya Faragha</string>
+    <string name="terms_of_service">Masharti ya Hudumae</string>
+
+
+    <string name="my_notepad_inc">My Notepad Inc.</string>
+    <string name="privacy_updated">[Ilisasishwa Mwisho: 10/06/2022]</string>
+
+    <string name="pr_text">Kulinda faragha yako ni kipengele muhimu kwa My Notepad Inc. Kwa kuzingatia hili tunatoa "Sera hii ya Faragha" ili kueleza mbinu zetu kuhusu ukusanyaji, usindikaji, matumizi na ufichuzi wa hifadhi ya maelezo katika Programu.</string>
+
+    <string name="policy_revision">Marekebisho ya Sera hii ya Faragha</string>
+    <string name="policy_revision_text">Taarifa yoyote inayokusanywa kupitia huduma yetu inasimamiwa na Sera ya Faragha inayotumika wakati maelezo kama haya yanakusanywa. Tunaweza kurekebisha Sera hii ya Faragha mara kwa mara. Iwapo mabadiliko yoyote muhimu yatafanywa kwa Sera hii ya Faragha, tutakujulisha mabadiliko hayo kwa kuyachapisha, kuyatumia barua pepe au arifa nyinginezo. Tutasasisha tarehe ya "Kusasishwa Mwisho" hapo juu ili kuonyesha ni lini mabadiliko hayo yataanza kutumika.</string>
+
+    <string name="information_collection">Mkusanyiko wa Taarifa</string>
+    <string name="information_collection_text">Hakuna taarifa zako za kibinafsi zitakazokusanywa. Hii ni pamoja na maelezo ya mtu binafsi yanayotambulika, maelezo yanayomtambulisha au kwa juhudi zinazofaa kumtambulisha mtu.</string>
+
+    <string name="information_we_share">Habari tunazoshiriki na Wahusika wengine</string>
+    <string name="information_we_share_text">Hatutashiriki maelezo yako ya kibinafsi yaliyokusanywa nasi</string>
+
+    <string name="other_sites_links">Viungo kwa Tovuti Zingine</string>
+    <string name="other_sites_links_text">Huduma yetu inaweza kuwa na viungo vya tovuti na huduma ambazo zinamilikiwa au kuendeshwa na wahusika wengine. Taarifa yoyote unayotoa kwa au kwa Mtu Nyingine au ambayo inakusanywa na Huduma ya Watu Wengine hutolewa moja kwa moja kwa mmiliki au mwendeshaji wa Huduma ya Wengine na inategemea sera ya faragha ya mmiliki au waendeshaji. Hatuwajibikii maudhui, faragha au desturi za usalama za Huduma yoyote ya Watu Wengine. Ili kulinda maelezo yako, tunapendekeza kwamba ukague kwa makini sera ya faragha ya huduma zote za Watu Wengine unazofikia.</string>
+
+    <string name="terms_updated">[Ilisasishwa Mwisho: 10/06/2022]</string>
+
+    <string name="tr_text">Karibu kwenye programu ya simu ya Notepad Yangu. Tafadhali soma Sheria na Masharti haya kwa sababu yanasimamia matumizi yako ya Huduma zetu za maombi.</string>
+
+    <string name="agreement_to_terms">Makubaliano ya Masharti</string>
+    <string name="agreement_to_terms_text">Kwa kutumia Programu yetu, unakubali kufungwa na Masharti haya. Ikiwa hukubaliani na masharti haya usitumie Huduma.</string>
+
+    <string name="changes_of_terms_of_service">Mabadiliko ya Sheria na Masharti</string>
+    <string name="changes_of_terms_of_service_text">Tunaweza kurekebisha Sheria na Masharti wakati wowote, kwa hiari yetu pekee. Tukifanya hivyo, tutakufahamisha kwa kuchapisha Sheria na Masharti yaliyorekebishwa au kupitia mawasiliano mengine. Ni muhimu ukague sheria na masharti kila tunapoyarekebisha kwa sababu ukiendelea kutumia Huduma baada ya kusasisha Sheria na Masharti yaliyobadilishwa, unaonyesha kuwa unakubali kuwa chini ya Sheria na Masharti yaliyobadilishwa. Ikiwa hukubali kufungwa basi huenda usitumie Huduma tena.</string>
+    <string name="more_changes_of_terms_of_service_text">Kwa sababu Huduma yetu inabadilika, tunaweza kubadilisha au kusimamisha huduma yote au sehemu yoyote ya Huduma wakati wowote na bila taarifa, kwa uamuzi wetu pekee.</string>
+
+    <string name="provision_of_services">Utoaji wa Huduma</string>
+    <string name="provision_of_services_text">Huduma inakupa, kama mtumiaji, fursa ya kuchukua na kuhariri madokezo yenye mandhari machache ya usuli.</string>
+    <string name="more_provision_of_services_text">Kulingana na kutii kwako sheria na masharti unaweza kutumia huduma kuandika, kuhifadhi na kuhariri maudhui ya maandishi ambayo umeidhinishwa kufikia kwenye hifadhidata ya Programu iliyohifadhiwa kwenye kifaa chako.</string>
+    <string name="pin_unpin">Pin/Unpin</string>
+    <string name="delete">Delete</string>
+    <string name="search_here">Tafuta hapa</string>
+    <string name="text_to_speech">Maandishi kwa hotuba</string>
+    <string name="language">Lugha</string>
+
+    <string name="enter_note_title">Kichwa cha dokezo</string>
+    <string name="enter_note_description">Chapa dokezo</string>
+
+
+</resources>

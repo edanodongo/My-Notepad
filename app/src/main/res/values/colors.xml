@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="white2">#FCFCFC</color>
+    <color name="green">#51EE1A</color>
+    <color name="greenMain">#6BF33B</color>
+    <color name="yellow">#FFEE00</color>
+    <color name="yellowMain">#FCF36E</color>
+    <color name="mainBg">#EAE9E5</color>
+    <color name="LightBlueGrey">#607D8B</color>
+    <color name="DarkBlueGrey">#455A64</color>
+    <color name="FABColor">#707070</color>
+    <color name="BtmTab">#98B2BE</color>
+
+    <color name="ColorDefaultNote">#FFFFFF</color>
+    <color name="ColorBlueNote">#2196F3</color>
+    <color name="ColorYellowNote">#F9CC37</color>
+    <color name="ColorPurpleNote">#C14CD5</color>
+    <color name="ColorGreenNote">#4CAF50</color>
+    <color name="ColorTealNote">#009688</color>
+    <color name="ColorBlueGreyNote">#607D8B</color>
+    <color name="ColorOrangeNote">#FF9800</color>
+    <color name="ColorWhiteNote">#FFFFFF</color>
+
+    <color name="dPrim">#616161</color>
+    <color name="lPrim">#9E9E9E</color>
+    <color name="acc">#03A9F4</color>
+
+
+</resources>
